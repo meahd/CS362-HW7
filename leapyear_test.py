@@ -7,7 +7,7 @@ class TestCase(unittest.TestCase):
         self.assertTrue(leapyear.isDivisibleBy4(4))
 
     def testNotDivisibleBy100(self):
-        self.assertFalse(leapyear.isNotDivisibleBy100(4))
+        self.assertFalse(leapyear.isNotDivisibleBy100(100))
     
 if __name__ == '__main__':
     unittest.main()
