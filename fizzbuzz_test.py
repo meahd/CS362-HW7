@@ -15,6 +15,9 @@ class TestCase(unittest.TestCase):
 
     def testDivisibleBy3(self):
         self.assertEqual(fizzbuzz.is3(3),'Fizz')    
+    
+    def testDivisibleBy5(self):
+        self.assertEqual(fizzbuzz.is5(5),'Buzz')
         
 if __name__ == '__main__':
     unittest.main()
