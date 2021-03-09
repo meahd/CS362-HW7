@@ -19,16 +19,15 @@ def is5(fizzbuzz):
 #Final version of code
 for list in range(1,101):
     if list % 15 == 0:
-        print("FizzBuzz")
+        print('FizzBuzz')
         continue
 
     elif list % 3 == 0:
-        print("Fizz")
+        print('Fizz')
         continue
 
     elif list % 5 == 0:
-        print("Buzz")
+        print('Buzz')
         continue
 
     print(list)
-
