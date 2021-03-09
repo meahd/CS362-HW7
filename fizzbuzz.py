@@ -12,4 +12,6 @@ def is3(fizzbuzz):
     if fizzbuzz % 3 == 0:
         return 'Fizz'
     
-
+def is5(fizzbuzz):
+    if fizzbuzz % 5 == 0:
+        return 'Buzz'
