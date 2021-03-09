@@ -12,5 +12,8 @@ class TestCase(unittest.TestCase):
     def testDivisibleBy400(self):
         self.assertTrue(leapyear.isDivisibleBy400(400))
     
+    def testLeapYearChecker(self):
+        self.assertTrue(leapyear.leapYearChecker(2000))
+        
 if __name__ == '__main__':
     unittest.main()
