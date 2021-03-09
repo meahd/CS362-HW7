@@ -7,5 +7,9 @@ def number_counter():
 def is15(fizzbuzz):
     if fizzbuzz % 15 == 0:
         return 'FizzBuzz'
+    
+def is3(fizzbuzz):
+    if fizzbuzz % 3 == 0:
+        return 'Fizz'
+    
 
-is15(15)
