@@ -29,3 +29,9 @@ def leapYearChecker(x):
             return True
     else:
         return False
+
+year = 2020
+if(leapYearChecker(year)):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
