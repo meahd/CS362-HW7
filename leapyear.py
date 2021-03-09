@@ -11,3 +11,9 @@ def isNotDivisibleBy100(x):
         return False
     else:
         return True
+
+def isDivisibleBy400(x):
+    if(x % 400) == 0:
+        return True
+    else:
+        return False
