@@ -17,3 +17,15 @@ def isDivisibleBy400(x):
         return True
     else:
         return False
+
+def leapYearChecker(x):
+    if(x % 4) == 0:
+        if(x % 100) == 0:
+            if(x % 400) == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
