@@ -5,3 +5,9 @@ def isDivisibleBy4(x):
         return True
     else:
         return False
+   
+def isNotDivisibleBy100(x):
+    if(x % 100) == 0:
+        return False
+    else:
+        return True
